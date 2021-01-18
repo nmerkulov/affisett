@@ -1,0 +1,13 @@
+### Send POST request with json body
+POST http://127.0.0.1:8080/
+Content-Type: application/json
+
+{
+  "urls": [
+    "http://127.0.0.1:8081/100ms",
+    "http://127.0.0.1:8081/fail",
+    "http://127.0.0.1:8081/2s",
+    "http://127.0.0.1:8081/2s",
+    "http://127.0.0.1:8081/2s"
+  ]
+}
