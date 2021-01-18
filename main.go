@@ -84,6 +84,7 @@ func main() {
 			}
 		)
 		defer cancel()
+		//i'm not a big fan of labels. But this time i decided to put here label, mostly for fun =)
 	L:
 		for i, u := range p.URLs {
 			select {
